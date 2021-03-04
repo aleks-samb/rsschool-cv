@@ -1,0 +1,49 @@
+html{
+  margin: 0 auto;
+}
+body {
+  font-family: sans-serif;
+  background-color: #fdcdba;
+  font-size: 14px;
+  color: black;
+  line-height: 22px;
+}
+
+header{
+    text-align: right;
+    text-transform: uppercase ;
+    text-decoration: underline;
+    color: gray;
+}
+footer{
+  text-align: center;
+  margin: 0 auto;
+  padding: 3px;
+
+}
+.cv {
+  width: 700px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 3px;
+}
+.personal {
+  text-align: center;
+  padding-top: 10px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+.rsschool {
+  display: block;
+  float: right;
+  width: 10%;
+  height: 10%;
+}
+time{
+  display: block;
+  float: left;
+}
