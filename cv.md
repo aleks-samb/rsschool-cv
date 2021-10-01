@@ -1,7 +1,7 @@
-# **Curriculum vitae**
-## **Aleksandra Samorodskaya**
-## Junior FrontEnd Developer
-### *Contact information:*
+
+# **Aleksandra Samorodskaya**
+## Junior Frontend Developer
+### *Contact information*
  * Location: Minsk, Belarus
  * Phone: +375296633119
  * E-mail: samarod@tut.by
