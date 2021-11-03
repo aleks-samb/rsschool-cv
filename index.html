@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>RSSchoolCv</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-      
+        <div class="container">
+          <div class="content">
+          
+            <aside>
+            <header class="header">
+              <div class="header-image">
+                <img src="/images/Aleks.jpg" alt="Aleks">
+              </div>
+              <h1>
+                Aleksandra 
+                <br>Samorodskaya
+                <br><span>Frontend Developer</span>
+              </h1>
+            </header>
+
+            <section class="contacts">
+              <ul class="contact_list">
+                <li>samarod@tut.by</li>
+                <li>+375 29 6633119</li>
+                <li class="github"><a href="https://github.com/aleks-samb">Github</a></li>
+                <li>Minsk, Belarus</li>
+              </ul>
+            </section>
+
+            <section class="skills">
+              <h2 class="name">Skills</h2>
+              <ul class="skills_list">
+                <li>HTML5, CSS3</li>
+                <li>Git, Github</li>
+                <li>Figma</li>
+                <li>Javascript (basic)</li>
+              </ul>
+            </section>
+
+            <section class="languages">
+              <h2 class="name">Languages</h2>
+              <ul class="languages_list">
+                <li>Russian (native)
+                <div class="circle_1"></div>
+                <div class="circle_2"></div>
+                <div class="circle_3"></div>
+                <div class="circle_4"></div>
+                <div class="circle_5"></div> </li>
+                <li>English (B2)
+                <div class="circle_1"></div>
+                <div class="circle_2"></div>
+                <div class="circle_3"></div>
+                <div class="circle_4"></div>
+                <div class="circle_6"></div></li>
+              </ul>
+            </section>
+          </aside>
+
+          <main>
+
+            <section class="summary">
+              <h3 class="title">Personal information</h3>
+              <p>My main advantage as a former professional athlete is discipline. I am not afraid of learning new things, open to new achievements and I never stop there. Gold medal at school, champion of Belarus in dancesport, coach of my own dance school - I can achieve everything I want.</p> 
+               <p>I have an extensive experience in communicating in English. Have been living in USA for one year, have been to 45 countries around the world</p> 
+              <p>And now I dream of developing in the field of high technologies, because I enjoy the ability to create useful programs for the society.</p>
+            </section>
+
+            <section class="education">
+              <h3 class="title">Education</h3>
+              <ul class="education_list">
+                <li>Bachelor degree in EHU (Cultural Heritage and Tourism)</li>
+                <li>HTML and CSS Tutorials on the <a href="https://htmlacademy.ru">HTML academy</a>, RSSchool.</li>
+                <li>Javascript + React (in process) on the <a href="https://udemy.com">Udemy</a></li>
+              </ul>
+            </section>
+  
+  
+            <section class="coding">
+            <h3 class="title">Example of coding</h3>
+            <div class="example">
+            <code> 
+              function positiveSum(arr) {
+                var positiveArray = arr.filter(function(x){return x > 0});// getting positive.
+                    var sum = 0;  positiveArray.forEach(function(x){ sum += x;});
+                   return sum;
+              }
+          </code>
+          </div>
+          </main>
+        </div>
+        <footer>
+          <a class="my_github" href="https://github.com/aleks-samb/">
+            <img class="github_icon" src="/icons/github.svg" alt="My GitHub" width="26" height="26"> Visit my Github</a>
+          <p>© 2021</p>
+          <a href="https://rs.school/js/">
+            <img src="./icons/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+          </a>
+        </footer>
         </div>
     </body>
 </html>
