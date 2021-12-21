@@ -101,15 +101,15 @@ aside{
 }
  
 .contact_list li:nth-child(1)::before{
-    content: url('/icons/Vector.svg');
+    content: url('./icons/Vector.svg');
     margin-right: 20px;
 }
 .contact_list li:nth-child(2)::before {
-    content: url('/icons/Vector\ \(2\).svg');
+    content: url('./icons/Vector\ \(2\).svg');
     margin-right: 20px;
   }       
 .contact_list li:nth-child(3)::before {
-    content: url('/icons/website.svg');
+    content: url('./icons/website.svg');
     margin-right: 20px;
    vertical-align: text-top;
 }
