@@ -114,7 +114,7 @@ aside{
    vertical-align: text-top;
 }
 .contact_list li:nth-child(4)::before {
-        content: url('./icons/Vector\ \(3\).svg');
+        content: url('../icons/Vector\ \(3\).svg');
         margin-right: 20px;
     }
   li a {
